@@ -47,3 +47,4 @@ $synology->activateDebug();
 $synology->connect('admin', 'xxxx');
 print_r($synology->getInfo('type: private || team', 'path')); 
 print_r($synology->getDir('type: private || team', 'path', 'name')); 
+```
